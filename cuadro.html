@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cuadro</title>
+	<style > 
+		.lola{
+			position: absolute;
+			top: 100px;
+			left: 100px;
+			width: 200px;
+			height: 500px;
+			background: red;
+		}
+		.lolo{
+			position: absolute;
+			top: 100px;
+			left: 100px;
+			width: 200px;
+			height: 500px;
+			background: yellow;
+		}
+	</style>
+</head>
+<body onkeypress="color()">
+	<div id="hola"	class="lola"> </div>
+
+	<script>
+		function color(){
+		if(event.code=="KeyR")
+		{
+		
+	 	var n4=document.getElementById('hola');
+	 	n4.className='lolo';
+	}
+	else{
+		var n4=document.getElementById('hola');
+	 	n4.className='lola';
+		}
+}
+
+		roco=[1,2,3,4,5,6];
+
+
+
+	</script>
+
+
+
+	<div>hola</div>
+</body>
+</html>
